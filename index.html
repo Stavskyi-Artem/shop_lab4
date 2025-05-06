@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мій Інтернет-Магазин</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+</head>
+<body>
+<header>
+    <div class="logo animate-logo">🛍️ MyShop</div>
+    <nav>
+        <ul class="menu">
+            <li><a href="#">Головна</a></li>
+            <li><a href="#">Товари</a></li>
+            <li><a href="#">Про нас</a></li>
+            <li><a href="#">Контакти</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <aside class="filters">
+        <h2>Фільтри</h2>
+        <label>Категорія:
+            <select id="categoryFilter">
+                <option value="all">Усі</option>
+                <option value="accessories">Аксесуари</option>
+                <option value="clothing">Одяг</option>
+            </select>
+        </label>
+        <label>Макс. ціна:
+            <input type="range" id="priceFilter" min="0" max="10000" value="10000" />
+            <span id="priceValue">10000</span> грн
+        </label>
+    </aside>
+
+    <section class="products-container" id="products"></section>
+</main>
+
+<footer>
+    <p>Контакти: shop@email.com | Тел: +38 (099) 123-45-67</p>
+    <p>
+        <a href="#">Facebook</a> |
+        <a href="#">Instagram</a> |
+        <a href="#">Telegram</a>
+    </p>
+</footer>
+</body>
+</html>

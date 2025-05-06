@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #c6c6c6;
+}
+
+header {
+    background-color: rgba(24, 55, 55, 0.6);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.filters {
+    width: 200px;
+    background: #c7d4d8;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.products-container {
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px; /* або margin між картками */
+        justify-content: flex-start;
+
+
+}
+
+.product-card {
+    background-color: rgba(36, 67, 67, 0.6);
+    border: 2px solid #cfc6b6;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    width: 200px;
+}
+
+.product-image {
+
+    width: 200px;
+    max-height: 150px; /* обмеження висоти */
+    object-fit: contain; /* або 'cover' */
+    border-radius: 6px;
+    display: flex;
+    margin: 0 auto;
+}
+
+
+
+.price-cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.product-card:hover {
+    transform: scale(1.1); /* Збільшення на 10% при наведенні */
+
+}
+.add-to-cart {
+    background-color: #ded8ce;
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+footer {
+    background-color: rgba(24, 55, 55, 0.6);
+    padding: 10px;
+    text-align: center;
+}

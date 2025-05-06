@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "name": "Hat",
+    "description": "Класна літня шапка",
+    "price": 700,
+    "category": "accessories",
+    "image": "/images/4066752_1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "T-Shirt",
+    "description": "Зручна футболка",
+    "price": 900,
+    "category": "clothing",
+    "image": "/images/DSC03492-1000x1250.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Trousers",
+    "description": "Стильні штани",
+    "price": 1500,
+    "category": "clothing",
+    "image": "/images/501440183.jpg"
+  },
+  {
+  "id": 4,
+  "name": "Glasees",
+  "description": "Сонцезахисні окуляри",
+  "price": 4000,
+  "category": "accessories",
+  "image": "/images/62cd5d16539a8149308143.jpg"
+},
+  {
+  "id": 5,
+  "name": "Blouse",
+  "description": "Тепле худі",
+  "price": 3000,
+  "category": "clothing",
+  "image": "/images/shopping.jpg"
+}
+
+]
