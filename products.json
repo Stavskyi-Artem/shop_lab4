@@ -38,6 +38,45 @@
   "price": 3000,
   "category": "clothing",
   "image": "/images/shopping.jpg"
-}
-
+},
+  {
+    "id": 6,
+    "name": "Backpack",
+    "description": "Місткий рюкзак для подорожей",
+    "price": 1200,
+    "category": "accessories",
+    "image": "/images/313117834.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Jeans",
+    "description": "Класичні сині джинси",
+    "price": 1100,
+    "category": "clothing",
+    "image": "/images/1-джинси-жіночі-lexus-сині-класичні-p-7713.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Cap",
+    "description": "Літня кепка з вентиляцією",
+    "price": 500,
+    "category": "accessories",
+    "image": "/images/image.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Jacket",
+    "description": "Легка весняна куртка",
+    "price": 2300,
+    "category": "clothing",
+    "image": "/images/99985f02310ff99f92610eaf70941bc3a1bf1658_original.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Shoes",
+    "description": "Спортивні кросівки для бігу",
+    "price": 1800,
+    "category": "clothing",
+    "image": "/images/1162053-FLCK_1-2025.jpg"
+  }
 ]
